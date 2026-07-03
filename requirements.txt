@@ -1,0 +1,13 @@
+﻿numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+scanpy
+anndata
+matplotlib
+seaborn
+matplotlib-venn
+networkx
+joblib
+tqdm

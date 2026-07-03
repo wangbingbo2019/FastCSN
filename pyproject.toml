@@ -1,0 +1,26 @@
+﻿[project]
+name = "fastcsn-research"
+version = "0.1.0"
+description = "Research code for FastCSN cell-specific network construction using precomputed grid lookup."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "FastCSN authors" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "scanpy",
+    "anndata",
+    "matplotlib",
+    "seaborn",
+    "matplotlib-venn",
+    "networkx",
+    "joblib",
+    "tqdm",
+]
+
+[tool.setuptools]
+py-modules = []
