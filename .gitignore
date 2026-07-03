@@ -1,0 +1,28 @@
+﻿__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Large local datasets are documented in data/README.md.
+data/*
+!data/README.md
+*.h5
+*.h5ad
+*.mtx
+*.loom
+*.rds
+*.Rda
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
